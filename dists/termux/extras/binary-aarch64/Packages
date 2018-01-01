@@ -1,0 +1,10 @@
+Package: aircrack-ng
+Version: 1.0
+Architecture: aarch64
+Maintainer: h @mynick
+Description: my description
+Homepage: http://mysite.com
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/aircrack-ng_1.0_aarch64.deb
+Size: 131856
+SHA256: d0a78ad247eabfccc42504e88c14814715d205cc6bc9327016ae59456cb67b8e
