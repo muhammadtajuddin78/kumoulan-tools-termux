@@ -1,30 +1,10 @@
-Package: libepoxyy-dev
-Version: 1.4.0
-Maintainer: lokesh @hax4Us
-Architecture: arm
-Description: libepoxy is a library for handling OpenGL function pointer management.
-Depends: libepoxyy
-Filename: dists/termux/extras/binary-arm/libepoxyy-dev_1.4.0_arm.deb
-Size: 114580
-SHA256: 58ee7497e8d238658467782b837107a362570d2a54428f38df78331e78986c85
-
-Package: libepoxyy
-Version: 1.4.0
-Maintainer: lokesh @hax4Us
-Architecture: arm
-Description: libepoxy is a library for handling OpenGL function pointer management.
-Depends: libmesa, libmesa-dev
-Filename: dists/termux/extras/binary-arm/libepoxyy_1.4.0_arm.deb
-Size: 605244
-SHA256: f0faafdbae95a00f94eb373c8784f06cd8f4a248219d09e2aa18e97f5942deaf
-
 Package: wireshark
 Architecture: arm
 Maintainer: lokesh @hax4us
 Priority: optional
 Version: 2.2.1
 Description: network protocol analyzer and sniffer
-Depends: libnl, openssl, libpcap, libpcap-dev, libcrypt, libgcrypt-dev, glib, glib-dev, libgtk3, libgtk3-dev, liblua, liblua-dev, libgnutls, libgnutls-dev, gdk-pixbuf, gdk-pixbuf-dev, libatk, libatk-dev, libcairo-x, libcairo-x-dev, adwaita-icon-theme, hicolor-icon-theme, glib-bin, libepoxyy, libepoxyy-dev, pangoxft, pangoxft-dev, libxcb, libxcb-dev, libxau, libxau-dev, libx11, libx11-dev, libpng, libpng-dev, freetype, freetype-dev, libpixman, libpixman-dev, libxcomposite, libxcomposite-dev, libxext, libxext-dev, libxfixes, libxfixes-dev, libxft, libxft-dev, libxi, libxi-dev, libxinerama, libxinerama-dev, libxrender-dev, libxcursor-dev
+Depends: libnl, openssl, libpcap, libpcap-dev, libcrypt, libgcrypt-dev, glib, glib-dev, libgtk3, libgtk3-dev, liblua, liblua-dev, libgnutls, libgnutls-dev, gdk-pixbuf, gdk-pixbuf-dev, libatk, libatk-dev, libcairo-x, libcairo-x-dev, adwaita-icon-theme, hicolor-icon-theme, glib-bin, libepoxy, libepoxy-dev, pangoxft, pangoxft-dev, libxcb, libxcb-dev, libxau, libxau-dev, libx11, libx11-dev, libpng, libpng-dev, freetype, freetype-dev, libpixman, libpixman-dev, libxcomposite, libxcomposite-dev, libxext, libxext-dev, libxfixes, libxfixes-dev, libxft, libxft-dev, libxi, libxi-dev, libxinerama, libxinerama-dev, libxrender-dev, libxcursor-dev
 Filename: dists/termux/extras/binary-arm/wireshark_2.2.1_arm.deb
-Size: 31253692
-SHA256: cf12ade05a96bf46f96ee7f9293080de8c7d41d4cd56197a21dfdac7eebee1c9
+Size: 31270652
+SHA256: 1102802114405473718d74418f5620240ee59c63d31db5949929f53f742c24c5
