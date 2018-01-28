@@ -24,7 +24,7 @@ Maintainer: lokesh @hax4us
 Priority: optional
 Version: 2.2.1
 Description: network protocol analyzer and sniffer
-Depends: libnl, openssl, libpcap, libpcap-dev, libcrypt, libgcrypt-dev, glib, glib-dev, libgtk3, libgtk3-dev, liblua, liblua-dev, libgnutls, libgnutls-dev, gdk-pixbuf, gdk-pixbuf-dev, libatk, libatk-dev, libcairo-x, libcairo-x-dev, adwaita-icon-theme, hicolor-icon-theme, glib-bin, libepoxyy, libepoxyy-dev, pangoxft, pangoxft-dev, libxcb, libxcb-dev, libxau, libxau-dev, libx11, libx11-dev, libpng, libpng-dev, freetype2, libpixman, libpixman-dev, libxcomposite, libxcomposite-dev, libxext, libxext-dev, libxfixes, libxfixes-dev, libxft, libxft-dev, libxi, libxi-dev, libxinerama, libxinerama-dev, libxrender-dev, libxcursor-dev
+Depends: libnl, openssl, libpcap, libpcap-dev, libcrypt, libgcrypt-dev, glib, glib-dev, libgtk3, libgtk3-dev, liblua, liblua-dev, libgnutls, libgnutls-dev, gdk-pixbuf, gdk-pixbuf-dev, libatk, libatk-dev, libcairo-x, libcairo-x-dev, adwaita-icon-theme, hicolor-icon-theme, glib-bin, libepoxyy, libepoxyy-dev, pangoxft, pangoxft-dev, libxcb, libxcb-dev, libxau, libxau-dev, libx11, libx11-dev, libpng, libpng-dev, freetype, freetype-dev, libpixman, libpixman-dev, libxcomposite, libxcomposite-dev, libxext, libxext-dev, libxfixes, libxfixes-dev, libxft, libxft-dev, libxi, libxi-dev, libxinerama, libxinerama-dev, libxrender-dev, libxcursor-dev
 Filename: dists/termux/extras/binary-arm/wireshark_2.2.1_arm.deb
-Size: 31263676
-SHA256: fed742d81345c62ef65220230544e4cf60905885ac45c9b500635dd01eb07085
+Size: 31253692
+SHA256: cf12ade05a96bf46f96ee7f9293080de8c7d41d4cd56197a21dfdac7eebee1c9
