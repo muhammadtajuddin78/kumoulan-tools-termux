@@ -107,14 +107,24 @@ Package: libxfce4util-dev
 Maintainer: Lokesh @hax4us
 Architecture: aarch64
 Version: 4.12.1
-Depends: libxfce4util-common, glib-dev, glib, pkg-config
-Recommends: libxfce4util-bin
+Depends: libxfce4util-common, glib-dev, glib, pkg-config, libxfce4util
 Homepage: http://www.xfce.org/
 Description: Development files for libxfce4util                                     This package contains the headers for libxfce4util. If you intend to code
  applications for the Xfce4 desktop environment, you need to install this            package.
 Filename: dists/termux/extras/binary-aarch64/libxfce4util-dev_4.12.1_aarch64.deb
-Size: 28892
-SHA256: 51348e5e08d70dc8eb057a84640e8fcb14e4fcf60fc620bab25c023770b6ab56
+Size: 28884
+SHA256: ac4676d01183f0d9069120eadfa5e2ebd93871c517603849ac111296438e7e33
+
+Package: libxfce4util
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
+ At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
+Filename: dists/termux/extras/binary-aarch64/libxfce4util_4.12.1_aarch64.deb
+Size: 49512
+SHA256: dbd7be8d707bc2b666d8aa8c7c0804b7e991d32598f85920162efbc6e440b1cb
 
 Package: libxfconf-dev
 Maintainer: Lokesh @hax4us
