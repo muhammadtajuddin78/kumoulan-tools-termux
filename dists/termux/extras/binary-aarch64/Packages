@@ -45,8 +45,8 @@ Version: 2.24.32
 Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto, hicolor-icon-theme
 Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains the shared libraries & binaries.
 Filename: dists/termux/extras/binary-aarch64/libgtk2_2.24.32_aarch64.deb
-Size: 9511012
-SHA256: cbd074aa9674113ccbb1add9c8af2f82b70f198794e3a30a459d0f7ef521f00c
+Size: 9509628
+SHA256: ae09db3501eead13f0fb74331612ff6b13379c23b972ce62ce3845ebc3129d96
 
 Package: libvte-dev
 Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
