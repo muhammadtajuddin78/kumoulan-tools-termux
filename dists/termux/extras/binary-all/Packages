@@ -1,0 +1,31 @@
+Package: intltool
+Maintainer: Lokesh @hax4us
+Architecture: all
+Version: 0.50.2
+Depends: perl, libxml-parser-perl
+Description: The Intltool is an internationalization tool used for extracting translatable strings from source files, collecting the extracted strings with messages from traditional source files (<source directory>/<package>/po) and merging the translations into .xml, .desktop and .oaf files.
+Filename: dists/termux/extras/binary-all/intltool_0.50.2_all.deb
+Size: 34368
+SHA256: a1bbe899d73556ed8afb439c7b6ab596f6dd6ccf7eb105bdad5f750f0a8f159a
+
+Package: libdbus
+Maintainer: Lokesh @hax4us
+Architecture: all
+Version: 1.12.2
+Depends: libx11, libx11-dev, libice, libice-dev, libexpat, libexpat-dev, glib, glib-dev, libxcb, libxcb-dev, libxcomposite, libxcomposite-dev, libxext-dev, libxi-dev, libxau-dev, xcb-util, libxaw, libxrender-dev, libsm, xtrans
+Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon).
+Filename: dists/termux/extras/binary-all/libdbus_1.12.2_aarch64.deb
+Size: 369388
+SHA256: 95c07c781274ad1fa6895bf31837e28fb596613650de427a67c712a843f0092d
+
+Package: libxfce4util-common
+Maintainer: Lokesh @hax4us
+Architecture: all
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Description: common files for libxfce4util
+ This package contains various infrastructure-independant common files for
+  libxfce4util, the Xfce utility library.
+Filename: dists/termux/extras/binary-all/libxfce4util-common_4.12.1_aarch64.deb
+Size: 46056
+SHA256: a14acd066e05887509efba28975cb111f218832f57bebeea50c3146dc2ec9eb6

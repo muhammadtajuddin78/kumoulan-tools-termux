@@ -1,3 +1,153 @@
+Package: libdbus-dev
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 1.12.2
+Depends: libdbus, pkg-config
+Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon). This package contains header files.
+Filename: dists/termux/extras/binary-aarch64/libdbus-dev_1.12.2_aarch64.deb
+Size: 22656
+SHA256: c0c69e551b59889eb16fa99b16302bb072e81a44b406f39f54cb2943fd436267
+
+Package: libdbus-glib-dev
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 0.108
+Depends: libdbus, libdbus-dev, libdbus-glib, glib, libexpat-dev, glib-dev, pkg-config
+Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually, it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
+Filename: dists/termux/extras/binary-aarch64/libdbus-glib-dev_0.108_aarch64.deb
+Size: 41172
+SHA256: 69bb07de5dd4c1260c8a19532bea8832557822c8826b7f4893f77e6bd005c309
+
+Package: libdbus-glib
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 0.108
+Depends: libdbus, glib
+Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
+Filename: dists/termux/extras/binary-aarch64/libdbus-glib_0.108_aarch64.deb
+Size: 192344
+SHA256: b170967442f2bd8f4912b6fcffc69e57576e5b3196d147b639daa6fa09efca42
+
+Package: libgtk2-dev
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 2.24.32
+Depends: libgtk2
+Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains development files of gtk2.0 .
+Filename: dists/termux/extras/binary-aarch64/libgtk2-dev_2.24.32_aarch64.deb
+Size: 193596
+SHA256: c504765216b73c5a01a9c33780ea6a7d37d63bb9a9b58e2067d00ceb29b5014c
+
+Package: libgtk2
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 2.24.32
+Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto, hicolor-icon-theme
+Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains the shared libraries & binaries.
+Filename: dists/termux/extras/binary-aarch64/libgtk2_2.24.32_aarch64.deb
+Size: 9511012
+SHA256: cbd074aa9674113ccbb1add9c8af2f82b70f198794e3a30a459d0f7ef521f00c
+
+Package: libvte-dev
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Architecture: aarch64
+Version: 0.50.2
+Homepage: http://www.xfce.org/
+Depends: libvte, pcre2-dev, libcairo-x-dev, libx11-dev, libgtk3-dev, pangoxft-dev, glib-dev
+Description: Terminal emulator widget for GTK+ 3.0 - development files               The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.                              .                                         This package contains development files for the VTE library
+Filename: dists/termux/extras/binary-aarch64/libvte-dev_0.50.2_aarch64.deb
+Size: 42428
+SHA256: fd2219f44961d91cac4bf2119f08ecb3c44dddfb92e9a118c22224d60927026b
+
+Package: libvte
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Architecture: aarch64
+Version: 0.50.2
+Homepage: http://www.xfce.org/
+Depends: fontconfig, freetype, gdk-pixbuf, glib, libgtk3, libcairo-x, pangoxft, libx11
+Description: Terminal emulator widget for GTK+ 3.0 - runtime files                   The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.
+Filename: dists/termux/extras/binary-aarch64/libvte_0.50.2_aarch64.deb
+Size: 406452
+SHA256: b573eaa0c2f57236a7802335e96ab77fe5f66506c991143d1721c29be01f59d8
+
+Package: libxfce4ui-dev
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Depends: libxfce4ui, libgtk2-dev, libxfce4util-dev, libxfconf-dev
+Description: Development files for libxfce4ui - Gtk+2 variant                        This package contains the headers and the static library                            for libxfce4ui.
+Filename: dists/termux/extras/binary-aarch64/libxfce4ui-dev_4.12.1_aarch64.deb
+Size: 29424
+SHA256: de0a50fcdfe3d2519308465eb086ba4919dddde4afc637e5a1f2ab61e7ab8102
+
+Package: libxfce4ui
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Depends: libatk, libdbus-glib, fontconfig, freetype, gdk-pixbuf, glib, libgtk2, libice, libcairo-x, pangoxft, libsm, startup-notification, libx11, libxfce4util, libxfconf
+Description: widget library for Xfce - Gtk+2 variant                                 libxfce4ui is used to share commonly used Xfce widgets among the Xfce               applications.                             .                                         This package provides the Gtk+2 variant of libxfce4ui.
+Filename: dists/termux/extras/binary-aarch64/libxfce4ui_4.12.1_aarch64.deb
+Size: 355496
+SHA256: f648c001abae914890e7d18efdb1a2c139e1f4dae3ca5b8d9ed608e5c1010669
+
+Package: libxfce4util-bin
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
+ At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
+Filename: dists/termux/extras/binary-aarch64/libxfce4util-bin_4.12.1_aarch64.deb
+Size: 49520
+SHA256: bd6bcefc5b09ee88ce7ff88438594bde99a5b0463a56e6dbe9ad1f20634b941f
+
+Package: libxfce4util-dev
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Depends: libxfce4util-common, glib-dev, glib, pkg-config
+Recommends: libxfce4util-bin
+Homepage: http://www.xfce.org/
+Description: Development files for libxfce4util                                     This package contains the headers for libxfce4util. If you intend to code
+ applications for the Xfce4 desktop environment, you need to install this            package.
+Filename: dists/termux/extras/binary-aarch64/libxfce4util-dev_4.12.1_aarch64.deb
+Size: 28892
+SHA256: 51348e5e08d70dc8eb057a84640e8fcb14e4fcf60fc620bab25c023770b6ab56
+
+Package: libxfconf-dev
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Depends: glib-dev, libxfconf, pkg-config  
+Description: Development files for libxfconf                                         This package contains the development files libxfconf which are                     the main part of the Xfce4 configuration system. If you want to develope applications that use this library, you want                                to install this package.
+Filename: dists/termux/extras/binary-aarch64/libxfconf-dev_4.12.1_aarch64.deb
+Size: 21348
+SHA256: 1aa5878c6a9ab9b31e211c1ae575f6c96f1d72d7376077375ac79187c7a93039
+
+Package: libxfconf
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 4.12.1
+Homepage: http://www.xfce.org/
+Depends: libdbus, glib, libdbus-glib, libxfce4util  
+Description: utilities for managing settings in Xfce                                 xfconf contains xfconfd and xfconf-query.  - xfconfd handles the Xfce settings storage                                         - xfconf-query enables users to tune settings from command line
+Filename: dists/termux/extras/binary-aarch64/libxfconf_4.12.1_aarch64.deb
+Size: 175924
+SHA256: a4b37a8be0a530fc5549116176d519544224bdc95c4b0751f7d6474c9aa663f1
+
+Package: libxml-parser-perl
+Maintainer: Lokesh @hax4us
+Architecture: aarch64
+Version: 2.44
+Depends: perl, libexpat-dev
+Description: The XML::Parser module is a Perl interface to James Clark's XML parser, Expat.
+Filename: dists/termux/extras/binary-aarch64/libxml-parser-perl_2.44_aarch64.deb
+Size: 118996
+SHA256: 4924f663874e4d2d34dcfc2d05de0bb81ddbcb79d7e1e8af74b0fc2454015186
+
 Package: wireshark
 Architecture: aarch64
 Maintainer: lokesh @hax4us
@@ -8,3 +158,14 @@ Depends: libnl, openssl, libpcap, libpcap-dev, libcrypt, libgcrypt-dev, glib, gl
 Filename: dists/termux/extras/binary-aarch64/wireshark_2.2.1_aarch64.deb
 Size: 31205468
 SHA256: 553fa2455b5d8b868f9a15e814d9a3ae99387f54157dd81a3ae295b1a90c007c
+
+Package: xfce4-terminal
+Maintainer: Lokesh<lokesh@hax4us>@hax4us
+Architecture: aarch64
+Version: 0.8.6
+Depends: libatk, libcairo-x, gdk-pixbuf, glib, libgtk3, pangoxft, libvte, libx11, libxfce4ui, libxfce4util
+Homepage: http://www.xfce.org/
+Description: Xfce terminal emulator        This package contains Terminal, which is a lightweight and easy to use              terminal emulator for X11. It was created to fit nicely into the Xfce               desktop environment, but it also fits nice with other environments.                 .                                         For people who already know GNOME 2 terminal and are searching for a                lighter but comparable replacement, Terminal
+Filename: dists/termux/extras/binary-aarch64/xfce4-terminal_0.8.6_aarch64.deb
+Size: 391336
+SHA256: 20c2e0bf3039c6a2bc2443608ef4156d1e70fdc94c83448946b4be388e8094c6
