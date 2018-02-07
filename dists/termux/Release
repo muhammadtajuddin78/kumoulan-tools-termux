@@ -1,13 +1,13 @@
 Codename: termux
 Version: 1
-Architectures: arm aarch64 all
+Architectures: all aarch64 arm
 Description: Extras repository
 Suite: termux
-Date: Sun, 04 Feb 2018 12:01:57 UTC
+Date: Wed, 07 Feb 2018 16:29:13 UTC
 SHA256:
- bf5275e23d625cb1469924812be159df4ba1f56ac83da5f7c23176d00b4c8cce 951 extras/binary-arm/Packages
- d3ae1447cfe460042605603f1e92a8217e9db607041ff33a5fa61c2ada9a29f0 540 extras/binary-arm/Packages.xz
+ 457f8457623e8dbe849faf01022e1f8766335d2682ff86814a0464ce0c73ed8a 2421 extras/binary-all/Packages
+ 7e51161bb4926adffe9590790bb3f25483f55f61379163d2ecf1c39d1390b4be 1244 extras/binary-all/Packages.xz
  f9b0ec989a68bed17690a93c6b0196560415b2a81a5b4ba230dd263837cb53b2 11954 extras/binary-aarch64/Packages
  21e49f630e157bc8854394106ae5179f842ee4468afe094999af0caa6a3436dd 3280 extras/binary-aarch64/Packages.xz
- 38b13529797f2c45f08103aad73f043dd982ea27c8af14de171ca89259c1e206 1970 extras/binary-all/Packages
- 030cf4544de348225644488206086e9ad9c7892a584438a5c608e096a5799699 1056 extras/binary-all/Packages.xz
+ bf5275e23d625cb1469924812be159df4ba1f56ac83da5f7c23176d00b4c8cce 951 extras/binary-arm/Packages
+ d3ae1447cfe460042605603f1e92a8217e9db607041ff33a5fa61c2ada9a29f0 540 extras/binary-arm/Packages.xz

@@ -1,3 +1,13 @@
+Package: beef-xss
+Architecture: all
+Maintainer: lokesh @hax4us
+Version: 0.4.7.0-alpha
+Description: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
+Depends: libsqlite-dev, ruby, findutils, ruby-dev, libxslt, libxslt-dev
+Filename: dists/termux/extras/binary-all/beef-xss_0.4.7.0-alpha_all.deb
+Size: 2709784
+SHA256: 945b9d6feee943747e284d4446766766684fcf64c29b9c63468471aec8cc5828
+
 Package: intltool
 Maintainer: Lokesh @hax4us
 Architecture: all
