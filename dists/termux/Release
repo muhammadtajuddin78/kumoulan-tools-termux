@@ -3,11 +3,11 @@ Version: 1
 Architectures: arm aarch64 all
 Description: Extras repository
 Suite: termux
-Date: Thu, 08 Feb 2018 12:10:58 UTC
+Date: Thu, 08 Feb 2018 12:19:04 UTC
 SHA256:
  bf5275e23d625cb1469924812be159df4ba1f56ac83da5f7c23176d00b4c8cce 951 extras/binary-arm/Packages
  d3ae1447cfe460042605603f1e92a8217e9db607041ff33a5fa61c2ada9a29f0 540 extras/binary-arm/Packages.xz
  f9b0ec989a68bed17690a93c6b0196560415b2a81a5b4ba230dd263837cb53b2 11954 extras/binary-aarch64/Packages
  21e49f630e157bc8854394106ae5179f842ee4468afe094999af0caa6a3436dd 3280 extras/binary-aarch64/Packages.xz
- bcc6306be3fd2f35c8addad232cce0f0097a4560385c9d598de65ff608c0a517 2471 extras/binary-all/Packages
- 5d3034902e6e273c4ad52d36add0da21fd7d8e9d4d39b2a8e6f1a33d53d72879 1276 extras/binary-all/Packages.xz
+ b575f6148fa1fe85e7b584d212cbc4c7792cd59fd6fc6aa2e1fbc90daf96e339 2471 extras/binary-all/Packages
+ 524c7b2ccc3c16d2ccbc5fe7be969c3872053ef833952849308b7d3d34051e10 1276 extras/binary-all/Packages.xz
