@@ -4,10 +4,10 @@ Installed-Size: 21464
 Maintainer: lokesh @hax4us
 Version: 0.4.7.0-alpha
 Description: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
-Depends: termux-elf-cleaner, findutils, nodejs, ruby, ruby-dev, libsqlite-dev, libxslt, libxslt-dev
+Depends: make, clang, termux-elf-cleaner, findutils, nodejs, ruby, ruby-dev, libsqlite-dev, libxslt, libxslt-dev
 Filename: dists/termux/extras/binary-all/beef-xss_0.4.7.0-alpha_all.deb
-Size: 2671716
-SHA256: ab89fb634d05b1aa7e7eda8c169a219cc4a8e6d1e77d49f5c1686681e1630cd3
+Size: 2671724
+SHA256: bd3ff1afc0304565de6325442d6d9167bf4577e52a0654751701acd90aa32e0d
 
 Package: intltool
 Maintainer: Lokesh @hax4us
