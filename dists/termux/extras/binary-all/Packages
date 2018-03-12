@@ -51,4 +51,4 @@ Homepage: http://www.loinsec.net
 Description: Xerosploit is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes.
 Filename: dists/termux/extras/binary-all/xerosploit_1.0_all.deb
 Size: 276272
-SHA256: b6db13705700255c9130866f8e4c134035ca0e6dcdeefca6c417d18cef19c8f6
+SHA256: f9625e01633cc814d4a28a2731d356bbd6169db636de5b21cb0b3f5d5f345049
