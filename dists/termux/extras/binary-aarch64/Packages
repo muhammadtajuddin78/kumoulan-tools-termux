@@ -1,3 +1,14 @@
+Package: hping3
+Maintainer: Lokesh @hax4us
+Installed-Size: 180
+Architecture: aarch64
+Version: 3.0.0
+Depends: libpcap, libandroid-shmem
+Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
+Filename: dists/termux/extras/binary-aarch64/hping3_3.0.0_aarch64.deb
+Size: 49500
+SHA256: 57769c9e6783ece100f88b342c7d9d4bddf0c2be2ac052a660bbbd0c4221c48b
+
 Package: libdbus-dev
 Maintainer: Lokesh @hax4us
 Architecture: aarch64

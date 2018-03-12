@@ -40,3 +40,15 @@ Description: common files for libxfce4util
 Filename: dists/termux/extras/binary-all/libxfce4util-common_4.12.1_aarch64.deb
 Size: 46056
 SHA256: a14acd066e05887509efba28975cb111f218832f57bebeea50c3146dc2ec9eb6
+
+Package: xerosploit
+Maintainer: Lokesh<lokesh@hax4us.com>@hax4us
+Installed-Size: 1408
+Architecture: all
+Version: 1.0
+Depends: libpcap-dev, nmap, ruby-dev, hping3, libgmp-dev, clang, make, python2-dev
+Homepage: http://www.loinsec.net
+Description: Xerosploit is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes.
+Filename: dists/termux/extras/binary-all/xerosploit_1.0_all.deb
+Size: 276012
+SHA256: 3cda66c1ab743c851b8c0f590e863c3d00f4ba110b2fb34ee74e4e806ea2eb81
