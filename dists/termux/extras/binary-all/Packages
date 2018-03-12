@@ -50,5 +50,5 @@ Depends: libpcap-dev, nmap, ruby-dev, hping3, libgmp-dev, clang, make, python2-d
 Homepage: http://www.loinsec.net
 Description: Xerosploit is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes.
 Filename: dists/termux/extras/binary-all/xerosploit_1.0_all.deb
-Size: 276012
-SHA256: 3cda66c1ab743c851b8c0f590e863c3d00f4ba110b2fb34ee74e4e806ea2eb81
+Size: 276272
+SHA256: b6db13705700255c9130866f8e4c134035ca0e6dcdeefca6c417d18cef19c8f6
