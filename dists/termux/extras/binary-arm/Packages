@@ -1,3 +1,26 @@
+Package: wireless-tools-dev
+Architecture: arm
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9
+Description: Development files for wireless-tools
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Depends: wireless-tools
+Filename: dists/termux/extras/binary-arm/wireless-tools-dev_30pre9_arm.deb
+Size: 17280
+SHA256: 1416e8d274d9518e44336a4a007e8c29acd83a04829212e79c61f5f5f591ca43
+
+Package: wireless-tools
+Architecture: arm
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9
+Description: Tools allowing to manipulate the Wireless Extensions
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Filename: dists/termux/extras/binary-arm/wireless-tools_30pre9_arm.deb
+Size: 63996
+SHA256: 60280a389a15e34ed5c7bec3566fc041da071696dd0c53b611b16ecccb536304
+
 Package: wireshark
 Architecture: arm
 Maintainer: lokesh @hax4us

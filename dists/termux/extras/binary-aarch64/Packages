@@ -169,6 +169,29 @@ Filename: dists/termux/extras/binary-aarch64/libxml-parser-perl_2.44_aarch64.deb
 Size: 118996
 SHA256: 4924f663874e4d2d34dcfc2d05de0bb81ddbcb79d7e1e8af74b0fc2454015186
 
+Package: wireless-tools-dev
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9
+Description: Development files for wireless-tools
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Depends: wireless-tools
+Filename: dists/termux/extras/binary-aarch64/wireless-tools-dev_30pre9_aarch64.deb
+Size: 17284
+SHA256: 13fe6c27a7afde1fdfaf8969a82655c81eba4633c089932951130fdf0e3d0bd1
+
+Package: wireless-tools
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: Fredrik Fornwall @fornwall
+Version: 30pre9
+Description: Tools allowing to manipulate the Wireless Extensions
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Filename: dists/termux/extras/binary-aarch64/wireless-tools_30pre9_aarch64.deb
+Size: 61864
+SHA256: c6c006cfc8101845c75cd467d8f0562652b3a0be4bfdaceda7cb045fee2a4e6b
+
 Package: wireshark
 Architecture: aarch64
 Maintainer: lokesh @hax4us
