@@ -26,6 +26,7 @@
 
 #### How To Add My Repo In Sources.list File
 1. Add new sources list file `printf "deb https://github.com/Hax4us/termux-tools/ termux extras" $PREFIX/etc/apt/sources.list.d/hax4us.list`
+2. Update `apt update`
 
 #### Inatall Any Package 
 `apt install pkg_name`
