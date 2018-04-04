@@ -25,7 +25,7 @@
 3. xerosploit
 
 #### How To Add My Repo In Sources.list File
-1. For AARCH64 Add new sources list file `printf "deb [trusted=yes arch=all,aarch64] https://github.com/Hax4us/termux-tools/ termux extras" $PREFIX/etc/apt/sources.list.d/hax4us.list` and if you have **ARMHF/ARMV7 OR ARM 32BIT DEVICE** so you can add this `printf "deb [trusted=yes arch=allall,arm] https://github.com/Hax4us/termux-tools/ termux extras" $PREFIX/etc/apt/sources.list.d/hax4us.list`
+1. For AARCH64 Add new sources list file `printf "deb [trusted=yes arch=all,aarch64] https://github.com/Hax4us/termux-tools/ termux extras" > $PREFIX/etc/apt/sources.list.d/hax4us.list` and if you have **ARMHF/ARMV7 OR ARM 32BIT DEVICE** so you can add this `printf "deb [trusted=yes arch=all,arm] https://github.com/Hax4us/termux-tools/ termux extras" > $PREFIX/etc/apt/sources.list.d/hax4us.list`
 2. Update `apt update`
 
 #### Inatall Any Package 
