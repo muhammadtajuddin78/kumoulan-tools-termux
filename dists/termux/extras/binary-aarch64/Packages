@@ -1,3 +1,15 @@
+Package: clang
+Architecture: aarch64
+Installed-Size: 41248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm
+Filename: dists/termux/extras/binary-aarch64/clang_5.0.0_aarch64.deb
+Size: 8154588
+SHA256: 4bb15a01b3beea4ea1cf6a9ec8c93da1d5c650e29baae76eb02e6ab2bd33b5a2
+
 Package: hping3
 Maintainer: Lokesh @hax4us
 Installed-Size: 180
@@ -58,6 +70,20 @@ Description: GTK+ graphical user interface library                              
 Filename: dists/termux/extras/binary-aarch64/libgtk2_2.24.32_aarch64.deb
 Size: 9509628
 SHA256: ae09db3501eead13f0fb74331612ff6b13379c23b972ce62ce3845ebc3129d96
+
+Package: libllvm
+Architecture: aarch64
+Installed-Size: 19324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: Modular compiler and toolchain technologies library
+Homepage: http://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libgcc
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/termux/extras/binary-aarch64/libllvm_5.0.0_aarch64.deb
+Size: 4512900
+SHA256: 72c762e03da95ac0c42dca36f3d485a518457e21afc7ed3299f83df1454a846f
 
 Package: libvte-dev
 Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
