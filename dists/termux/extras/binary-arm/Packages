@@ -1,3 +1,29 @@
+Package: clang
+Architecture: arm
+Installed-Size: 30724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm
+Filename: dists/termux/extras/binary-arm/clang_5.0.0_arm.deb
+Size: 7581904
+SHA256: ab07edde28119123f2a000b9b8b12aaca5c7cfe6f75eaf83586d00c7fcc693de
+
+Package: libllvm
+Architecture: arm
+Installed-Size: 14880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: Modular compiler and toolchain technologies library
+Homepage: http://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libgcc
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/termux/extras/binary-arm/libllvm_5.0.0_arm.deb
+Size: 4932640
+SHA256: f5a5c9668f01d4d1400d57fa09b18b5b8c695582914b5958360128c47a8a47c2
+
 Package: wireless-tools-dev
 Architecture: arm
 Installed-Size: 60

@@ -1,0 +1,25 @@
+Package: clang
+Architecture: x86_64
+Installed-Size: 45132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm
+Filename: dists/termux/extras/binary-x86_64/clang_5.0.0_x86_64.deb
+Size: 9658112
+SHA256: 1955232b48577e08aab4910d8bc18368bcc04fb180d35563c5182525c58136ce
+
+Package: libllvm
+Architecture: x86_64
+Installed-Size: 25272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: Modular compiler and toolchain technologies library
+Homepage: http://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libgcc
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/termux/extras/binary-x86_64/libllvm_5.0.0_x86_64.deb
+Size: 5929432
+SHA256: 4ec05f2c7e3d48b20eb647389b8d31b5ce1a0950c270aeb955fd18b452b6c219
