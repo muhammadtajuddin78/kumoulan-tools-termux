@@ -46,9 +46,9 @@ Maintainer: Lokesh<lokesh@hax4us.com>@hax4us
 Installed-Size: 1408
 Architecture: all
 Version: 1.0
-Depends: libpcap-dev, ruby-dev, hping3, libgmp-dev, clang (<=5.0.0), libllvm (<=5.0.0), make, python2-dev, wireless-tools
+Depends: libpcap-dev, ruby-dev, hping3, libgmp-dev, clang, libllvm, make, python2-dev, wireless-tools
 Homepage: http://www.loinsec.net
 Description: Xerosploit is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes.
 Filename: dists/termux/extras/binary-all/xerosploit_1.0_all.deb
-Size: 276344
-SHA256: fd9a1df6496477d0cf68940e5d91ba57bd6251d01d352ea2cadc980022fc0aa0
+Size: 276336
+SHA256: 3fcbdb6761d6c8aac9ea124a2a89dfdf7a88817b080aca22a5af5a3c7770527d

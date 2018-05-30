@@ -1307,11 +1307,11 @@ Maintainer: Lokesh @hax4us
 Installed-Size: 9812
 Architecture: aarch64
 Version: 1.7.0
-Depends: libxfce4ui, libexo
+Depends: libxfce4ui, libexo, libgtk3
 Description: Thunar is the Xfce file manager, a GTK+ 2 GUI to organise the files on your computer.
 Filename: dists/termux/extras/binary-aarch64/thunar_1.7.0_aarch64.deb
-Size: 1671188
-SHA256: 2b2137b1e198eb03b4a71123c28eec7ab096df1117437bd5e2548016c14fe660
+Size: 1671272
+SHA256: f7c945d37c93207ae764754902b455e986acccb971e746331c48ce7e963f44af
 
 Package: tigervnc
 Architecture: aarch64
