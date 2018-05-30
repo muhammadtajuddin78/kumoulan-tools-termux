@@ -10,6 +10,113 @@ Filename: dists/termux/extras/binary-aarch64/clang_5.0.0_aarch64.deb
 Size: 8154588
 SHA256: 4bb15a01b3beea4ea1cf6a9ec8c93da1d5c650e29baae76eb02e6ab2bd33b5a2
 
+Package: desktop-file-utils
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.23-2
+Description: Command line utilities for working with desktop entries
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Depends: glib
+Filename: dists/termux/extras/binary-aarch64/desktop-file-utils_0.23-2_aarch64.deb
+Size: 30364
+SHA256: da0fae0c271f4add51dd5364a234240f4d280924ff77567caec2259875dab5cb
+
+Package: dosbox
+Architecture: aarch64
+Installed-Size: 1808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.74-2
+Description: Emulator with builtin DOS for running DOS Games
+Homepage: http://dosbox.sourceforge.net/
+Depends: libsdl, libsdl-net
+Filename: dists/termux/extras/binary-aarch64/dosbox_0.74-2_aarch64.deb
+Size: 480516
+SHA256: 7f3386b7895f702707fdb45fea49e99a00efbd1a1f3fc689a1da91f2ef52ec7b
+
+Package: feh
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.22.2
+Description: Fast and light imlib2-based image viewer
+Homepage: https://feh.finalrewind.org/
+Depends: imlib2, libcurl, libexif, libxinerama, libxt
+Filename: dists/termux/extras/binary-aarch64/feh_2.22.2_aarch64.deb
+Size: 119472
+SHA256: b92989c0573093fabbd7d20dbc58f8792a27ace5d64ae7b70ad6658c86138276
+
+Package: fltk-dev
+Architecture: aarch64
+Installed-Size: 1188
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.4-1
+Description: Development files for fltk
+Homepage: http://www.fltk.org/
+Depends: fltk
+Filename: dists/termux/extras/binary-aarch64/fltk-dev_1.3.4-1_aarch64.deb
+Size: 176908
+SHA256: 9d4ff896bddc7236b8ef2b2c6b28ddcae635dd82f618050292c772fc6b227b59
+
+Package: fltk-editor
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0-termux-1
+Description: Simple text editor
+Homepage: 
+Depends: fltk
+Filename: dists/termux/extras/binary-aarch64/fltk-editor_1.0-termux-1_aarch64.deb
+Size: 7936
+SHA256: 72388650540cfaf224a77549b3d140fc54e38e5c40d3d54efbd13f3ca6f1befa
+
+Package: fltk
+Architecture: aarch64
+Installed-Size: 1496
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.4-1
+Description: Graphical user interface toolkit for X
+Homepage: http://www.fltk.org/
+Depends: libjpeg-turbo, libxcursor, libxfixes, libxft, libxinerama, libxrender
+Replaces: fluid
+Filename: dists/termux/extras/binary-aarch64/fltk_1.3.4-1_aarch64.deb
+Size: 471392
+SHA256: 0c3e441d065787f1cbd6a883d952d65ead2cf16c26a5e7d3f2ce08beb304603d
+
+Package: fontutil
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Filename: dists/termux/extras/binary-aarch64/fontutil_1.3.1_aarch64.deb
+Size: 22772
+SHA256: 620424da195b937b5620068f4f56ce1b07c417adfab7ae6f69db37f3b059f6be
+
+Package: giflib-dev
+Architecture: aarch64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.4
+Description: Development files for giflib
+Homepage: http://sourceforge.net/projects/giflib/
+Depends: giflib
+Filename: dists/termux/extras/binary-aarch64/giflib-dev_5.1.4_aarch64.deb
+Size: 4108
+SHA256: 99e3b872e5e6f94b4890e7355ca267da895d58eeb7ae0ba8aaac06e8ffb9363f
+
+Package: giflib
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.4
+Description: A library for reading and writing gif images
+Homepage: http://sourceforge.net/projects/giflib/
+Filename: dists/termux/extras/binary-aarch64/giflib_5.1.4_aarch64.deb
+Size: 40956
+SHA256: 9ea3b486741617958629c5fe0ac7c40df2b575c9fb232de8d3d803e055418606
+
 Package: hping3
 Maintainer: Lokesh @hax4us
 Installed-Size: 180
@@ -20,6 +127,81 @@ Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
 Filename: dists/termux/extras/binary-aarch64/hping3_3.0.0_aarch64.deb
 Size: 49500
 SHA256: 57769c9e6783ece100f88b342c7d9d4bddf0c2be2ac052a660bbbd0c4221c48b
+
+Package: imlib2-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.10
+Description: Development files for imlib2
+Homepage: http://sourceforge.net/projects/enlightenment/
+Depends: imlib2
+Filename: dists/termux/extras/binary-aarch64/imlib2-dev_1.4.10_aarch64.deb
+Size: 5284
+SHA256: f7929d5727fb9dc4d7caee8dba966e95bda0137aede3764b64c6c8233d0aec93
+
+Package: imlib2
+Architecture: aarch64
+Installed-Size: 1064
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.10
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Homepage: http://sourceforge.net/projects/enlightenment/
+Depends: freetype, giflib, libandroid-shmem, libbz2, libjpeg-turbo, libpng, libtiff, libxext, libid3tag
+Filename: dists/termux/extras/binary-aarch64/imlib2_1.4.10_aarch64.deb
+Size: 454832
+SHA256: 3cb2ff351d71371516e4bba6796e1cf5f4e3b0736ae00fc3a28e2d797509f685
+
+Package: libatk-dev
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.24.0
+Description: Development files for libatk
+Homepage: https://www.gtk.org
+Depends: libatk
+Filename: dists/termux/extras/binary-aarch64/libatk-dev_2.24.0_aarch64.deb
+Size: 32896
+SHA256: 208028e210d120dd5afa65285f014e63e0bdd46bcb1edd7a4d8eee720e6ca824
+
+Package: libatk
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.24.0
+Description: FIXME:Add description
+Homepage: https://www.gtk.org
+Depends: glib, libandroid-support
+Filename: dists/termux/extras/binary-aarch64/libatk_2.24.0_aarch64.deb
+Size: 28856
+SHA256: 5d06bec4a0dd1f36c2e1ec679144a44e6cc34abf817277989629a0723153a145
+
+Package: libcairo-x-dev
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.14.12
+Description: Development files for libcairo-x
+Homepage: https://cairographics.org
+Depends: libcairo-x
+Filename: dists/termux/extras/binary-aarch64/libcairo-x-dev_1.14.12_aarch64.deb
+Size: 28088
+SHA256: c416b44eff08d25d69f450cdff3ecc2b9b6a1722a242af24695cab2560c2d315
+
+Package: libcairo-x
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.14.12
+Description: Cairo 2D vector graphics library (with X)
+Homepage: https://cairographics.org
+Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-support, liblzo, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxrender, poppler
+Conflicts: libcairo, libcairo-gobject, libcairo-dev
+Replaces: libcairo, libcairo-gobject
+Provides: libcairo, libcairo-gobject
+Filename: dists/termux/extras/binary-aarch64/libcairo-x_1.14.12_aarch64.deb
+Size: 344240
+SHA256: 49370aa4a79e0f806d01a0a33c475abb87967152eccb68c2211a0f7148e611ea
 
 Package: libdbus-dev
 Maintainer: Lokesh @hax4us
@@ -51,6 +233,99 @@ Filename: dists/termux/extras/binary-aarch64/libdbus-glib_0.108_aarch64.deb
 Size: 192344
 SHA256: b170967442f2bd8f4912b6fcffc69e57576e5b3196d147b639daa6fa09efca42
 
+Package: libdrm-dev
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.80-1
+Description: Development files for libdrm
+Homepage: http://dri.freedesktop.org
+Depends: libdrm
+Filename: dists/termux/extras/binary-aarch64/libdrm-dev_2.4.80-1_aarch64.deb
+Size: 90236
+SHA256: 6ab9638046695e53eae4364072dd6869360c6e89c60c7ef1908dffcbaf2666f0
+
+Package: libdrm
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4.80-1
+Description: FIXME:Add description
+Homepage: http://dri.freedesktop.org
+Filename: dists/termux/extras/binary-aarch64/libdrm_2.4.80-1_aarch64.deb
+Size: 61928
+SHA256: 25940ade7cb6a6ed2a02a3829335549bf45be2965e7bbfbf42d5595a385b3af2
+
+Package: libepoxy-dev
+Architecture: aarch64
+Installed-Size: 1564
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.4.0-2
+Description: Development files for libepoxy
+Homepage: https://github.com/anholt/libepoxy
+Depends: libepoxy
+Filename: dists/termux/extras/binary-aarch64/libepoxy-dev_1.4.0-2_aarch64.deb
+Size: 114344
+SHA256: 2edb31046e0d6fe11e6ee9dd17363c0db2ca8287133919deee767eef42caa1c2
+
+Package: libepoxy
+Architecture: aarch64
+Installed-Size: 884
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.4.0-2
+Description: Library handling OpenGL function pointer management
+Homepage: https://github.com/anholt/libepoxy
+Depends: libmesa
+Filename: dists/termux/extras/binary-aarch64/libepoxy_1.4.0-2_aarch64.deb
+Size: 112048
+SHA256: 7cc69645fb408aeb8c1d6e4d5e383e72f068325af1f2b5ca6905e66480debb93
+
+Package: libexo-dev
+Maintainer: Lokesh @hax4us
+Installed-Size: 268
+Architecture: aarch64
+Version: 0.11.5
+Depends: libexo
+Description: Development files for libexo
+Filename: dists/termux/extras/binary-aarch64/libexo-dev_0.11.5_aarch64.deb
+Size: 13176
+SHA256: 2f47ddf12a62d920631bca25d55d2821d5aa48a940da6893385c8725a1b7b953
+
+Package: libexo
+Maintainer: Lokesh @hax4us
+Installed-Size: 6204
+Architecture: aarch64
+Version: 0.11.5
+Depends: libxfce4ui, libxfce4util
+Description: Exo is a support library used in the Xfce desktop.
+Filename: dists/termux/extras/binary-aarch64/libexo_0.11.5_aarch64.deb
+Size: 946280
+SHA256: 59302d3ec6b524f6072ddbd18510f251f3371f0aa7dc3754546ee1e265b26ee7
+
+Package: libfontenc-dev
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: Development files for libfontenc
+Homepage: https://www.x.org
+Depends: libfontenc
+Filename: dists/termux/extras/binary-aarch64/libfontenc-dev_1.1.3_aarch64.deb
+Size: 3120
+SHA256: 69d30f19256012448e0e88f32746b0f6dc4828329d0a2d3778e739da50effb27
+
+Package: libfontenc
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: X11 font encoding library
+Homepage: https://www.x.org
+Depends: fontutil, x11-proto
+Filename: dists/termux/extras/binary-aarch64/libfontenc_1.1.3_aarch64.deb
+Size: 8500
+SHA256: 26c5325a854dcc0b238a6a95a58c72aa894ffdb2d0c45f44b856e3e952d48d3d
+
 Package: libgtk2-dev
 Maintainer: Lokesh @hax4us
 Architecture: aarch64
@@ -71,6 +346,54 @@ Filename: dists/termux/extras/binary-aarch64/libgtk2_2.24.32_aarch64.deb
 Size: 9509628
 SHA256: ae09db3501eead13f0fb74331612ff6b13379c23b972ce62ce3845ebc3129d96
 
+Package: libgtk3-dev
+Architecture: aarch64
+Installed-Size: 3008
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.22.26-13
+Description: Development files for libgtk3
+Homepage: http://www.gtk.org/
+Depends: libgtk3
+Filename: dists/termux/extras/binary-aarch64/libgtk3-dev_3.22.26-13_aarch64.deb
+Size: 240736
+SHA256: 7221e46eae1b46ec49fd225c29f9fe3a2207875592245809c53f167e388ee95e
+
+Package: libgtk3
+Architecture: aarch64
+Installed-Size: 11048
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.22.26-13
+Description: GObject-based multi-platform GUI toolkit
+Homepage: http://www.gtk.org/
+Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto
+Filename: dists/termux/extras/binary-aarch64/libgtk3_3.22.26-13_aarch64.deb
+Size: 2445344
+SHA256: 691fa56c6d98ffb38102cde79286ccf1fc026a05baffdbabb072aa511a8beda8
+
+Package: libice-dev
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8
+Description: Development files for libice
+Homepage: https://www.x.org
+Depends: libice
+Filename: dists/termux/extras/binary-aarch64/libice-dev_1.0.8_aarch64.deb
+Size: 7488
+SHA256: b2d9af25a4fd2ba894bc7d97f6406f3a1ab54b0069725a5e926e2963d47b3e52
+
+Package: libice
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8
+Description: X11 Inter-Client Exchange library
+Homepage: https://www.x.org
+Depends: x11-proto, xtrans, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libice_1.0.8_aarch64.deb
+Size: 26500
+SHA256: 0630f38b7d8d38b68877605ac29ae0a32948ec2030310ebd4b358c3a075fb5d1
+
 Package: libllvm
 Architecture: aarch64
 Installed-Size: 19324
@@ -84,6 +407,172 @@ Replaces: gcc
 Filename: dists/termux/extras/binary-aarch64/libllvm_5.0.0_aarch64.deb
 Size: 4515632
 SHA256: aa697ebee097a2abefc6d32a266cb14d3cb3bac3afdcab983966ff3822c7e6a9
+
+Package: liblua51-dev
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.5-2
+Description: Development files for liblua51
+Homepage: https://www.lua.org/
+Depends: liblua51
+Filename: dists/termux/extras/binary-aarch64/liblua51-dev_5.1.5-2_aarch64.deb
+Size: 12160
+SHA256: f5fa313aaf836996e1b6e2bb13884221e4c6676731915a1f60ae2aa257a3ab98
+
+Package: liblua51
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.5-2
+Description: Shared library for the Lua interpreter (v5.1)
+Homepage: https://www.lua.org/
+Filename: dists/termux/extras/binary-aarch64/liblua51_5.1.5-2_aarch64.deb
+Size: 49620
+SHA256: b2018612b570d32a05cfb8f3fce13ab27ba544f9f44bd8add629fdbc8278f0a7
+
+Package: libmesa-dev
+Architecture: aarch64
+Installed-Size: 1404
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 17.1.4-3
+Description: Development files for libmesa
+Homepage: https://www.mesa3d.org
+Depends: libmesa,ndk-sysroot-x
+Filename: dists/termux/extras/binary-aarch64/libmesa-dev_17.1.4-3_aarch64.deb
+Size: 124600
+SHA256: 08f1c5b7d2b712c69c30af7c976447fa94014906ddfe2d2240abe6c0fcfd43c8
+
+Package: libmesa
+Architecture: aarch64
+Installed-Size: 720
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 17.1.4-3
+Description: FIXME:Add description
+Homepage: https://www.mesa3d.org
+Depends: libexpat, libxml2, libx11, x11-proto, libdrm, libxdamage, libxshmfence, libandroid-shmem
+Filename: dists/termux/extras/binary-aarch64/libmesa_17.1.4-3_aarch64.deb
+Size: 118344
+SHA256: 3d634cf646758c379344a65945c37da5be872834edb36eba75fe070e7f8b9254
+
+Package: libsdl-dev
+Architecture: aarch64
+Installed-Size: 1308
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.15-1
+Description: Development files for libsdl
+Homepage: https://www.libsdl.org
+Depends: libsdl
+Filename: dists/termux/extras/binary-aarch64/libsdl-dev_1.2.15-1_aarch64.deb
+Size: 107404
+SHA256: cc25148985c997da5dc128681d135fc819aa39e79b6d9a4a4d17a7afac9d4540
+
+Package: libsdl-net-dev
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.8
+Description: Development files for libsdl-net
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: libsdl-net
+Filename: dists/termux/extras/binary-aarch64/libsdl-net-dev_1.2.8_aarch64.deb
+Size: 5588
+SHA256: a3d1427bd4ed66dd657b39358fb4612554655999f1fb1f56f41f78532b576e0b
+
+Package: libsdl-net
+Architecture: aarch64
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.8
+Description: A small sample cross-platform networking library
+Homepage: https://www.libsdl.org/projects/SDL_net/
+Depends: libsdl
+Filename: dists/termux/extras/binary-aarch64/libsdl-net_1.2.8_aarch64.deb
+Size: 5480
+SHA256: 5d9df7d023717f87cd7ff876f41024754e7c253ce90f86ba1f73d8e4a44e2a80
+
+Package: libsdl
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.15-1
+Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+Homepage: https://www.libsdl.org
+Depends: libx11, libxext, libxrender, pulseaudio
+Filename: dists/termux/extras/binary-aarch64/libsdl_1.2.15-1_aarch64.deb
+Size: 101352
+SHA256: 201549c7605931a559a25e89108b92da5f02d38e8a0fcac1cd7c8b3c5cd131cb
+
+Package: libseccomp-dev
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.3.2
+Description: Development files for libseccomp
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp
+Filename: dists/termux/extras/binary-aarch64/libseccomp-dev_2.3.2_aarch64.deb
+Size: 14520
+SHA256: c0ec2b63fe347bb5a851ea6e4c791e2307a67a492052d09d70eec489a787d914
+
+Package: libseccomp
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.3.2
+Description: Enhanced seccomp library
+Homepage: https://github.com/seccomp/libseccomp
+Filename: dists/termux/extras/binary-aarch64/libseccomp_2.3.2_aarch64.deb
+Size: 31976
+SHA256: cd27c1cc4fa8c6ebe447653a07510ea3892319794b8bad81c27b8e0daae3fe8a
+
+Package: libsm-dev
+Architecture: aarch64
+Installed-Size: 28
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1
+Description: Development files for libsm
+Homepage: https://www.x.org
+Depends: libsm
+Filename: dists/termux/extras/binary-aarch64/libsm-dev_1.2.1_aarch64.deb
+Size: 4308
+SHA256: eed2472924950031d071b75992576b7aef1acd3e0ad0019cc2b27aca00d529b1
+
+Package: libsm
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.1
+Description: X11 Session Management library
+Homepage: https://www.x.org
+Depends: libice, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libsm_1.2.1_aarch64.deb
+Size: 9508
+SHA256: 1ff1bf511811e7e1e7a43292dee9c8713fb737021d69a815d18bc869527a2165
+
+Package: libssh2-dev
+Architecture: aarch64
+Installed-Size: 756
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.8.0
+Description: Development files for libssh2
+Homepage: https://www.libssh2.org/
+Depends: libssh2
+Filename: dists/termux/extras/binary-aarch64/libssh2-dev_1.8.0_aarch64.deb
+Size: 41368
+SHA256: 09337f7c622123c6e93e9eea281f28077e6cad746ae624d93090544f411dab75
+
+Package: libssh2
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.8.0
+Description: A library implementing the SSH2 protocol as defined by Internet Drafts
+Homepage: https://www.libssh2.org/
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/libssh2_1.8.0_aarch64.deb
+Size: 51372
+SHA256: 772afb18e8fc2c95bc3008344a7000270d8397ea8ad3fc92b37f2eca30701a3b
 
 Package: libvte-dev
 Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
@@ -106,6 +595,198 @@ Description: Terminal emulator widget for GTK+ 3.0 - runtime files              
 Filename: dists/termux/extras/binary-aarch64/libvte_0.50.2_aarch64.deb
 Size: 406452
 SHA256: b573eaa0c2f57236a7802335e96ab77fe5f66506c991143d1721c29be01f59d8
+
+Package: libx11-dev
+Architecture: aarch64
+Installed-Size: 4748
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.4
+Description: Development files for libx11
+Homepage: 
+Depends: libx11
+Filename: dists/termux/extras/binary-aarch64/libx11-dev_1.6.4_aarch64.deb
+Size: 228188
+SHA256: 5da6bfdb735c245e5b6176c8082fe5bd5f82522a633862b238779470ba5c8c3c
+
+Package: libx11
+Architecture: aarch64
+Installed-Size: 2932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6.4
+Description: X11 client-side library
+Homepage: 
+Depends: x11-proto, xtrans, libxcb, libandroid-support, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libx11_1.6.4_aarch64.deb
+Size: 552336
+SHA256: e3857f2253790e36a09b650a385b087648848ea233c0dd25bae657b6ea652684
+
+Package: libxau-dev
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8
+Description: Development files for libxau
+Homepage: 
+Depends: libxau
+Filename: dists/termux/extras/binary-aarch64/libxau-dev_1.0.8_aarch64.deb
+Size: 4252
+SHA256: 3e73335ed7190d18a340ccf62878882a7b511fd89bac0938f5711d9281979923
+
+Package: libxau
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8
+Description: X11 authorisation library
+Homepage: 
+Depends: x11-proto
+Filename: dists/termux/extras/binary-aarch64/libxau_1.0.8_aarch64.deb
+Size: 3668
+SHA256: 8acc4ab59796172b2affe4d27a537089aa66c308f8691bdeee2015d024d7954f
+
+Package: libxaw-dev
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.13
+Description: Development files for libxaw
+Homepage: https://www.x.org
+Depends: libxaw
+Filename: dists/termux/extras/binary-aarch64/libxaw-dev_1.0.13_aarch64.deb
+Size: 41636
+SHA256: d499cbd5c6ee248a585dc70c274c303abc8bdffc3947155027353ab03083f824
+
+Package: libxaw
+Architecture: aarch64
+Installed-Size: 652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.13
+Description: X11 Athena Widget library
+Homepage: https://www.x.org
+Depends: libxmu, libxpm, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxaw_1.0.13_aarch64.deb
+Size: 146016
+SHA256: 2277b91c8549c11d24103e69e64cde11b5da14ae12ff87c6587f23d06900f369
+
+Package: libxcb-dev
+Architecture: aarch64
+Installed-Size: 11192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12
+Description: Development files for libxcb
+Homepage: 
+Depends: libxcb
+Filename: dists/termux/extras/binary-aarch64/libxcb-dev_1.12_aarch64.deb
+Size: 239872
+SHA256: 79ca631dc12bac981e0bbbaba98cb78b7372da1aef3650c0d76dcc96a839cff4
+
+Package: libxcb
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12
+Description: X11 client-side library
+Homepage: 
+Depends: xcbproto, libxau, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxcb_1.12_aarch64.deb
+Size: 74408
+SHA256: 1eef698c3c986feebf1ad07ed8dcf34292aba576297f4f739b5486667cd11014
+
+Package: libxcomposite-dev
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4
+Description: Development files for libxcomposite
+Homepage: https://www.x.org
+Depends: libxcomposite
+Filename: dists/termux/extras/binary-aarch64/libxcomposite-dev_0.4.4_aarch64.deb
+Size: 5992
+SHA256: f19b183f8fe730527ceefa1a313de333ab985fa3fee95d91ff971d88253272f3
+
+Package: libxcomposite
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.4
+Description: X11 Composite extension library
+Homepage: https://www.x.org
+Depends: libxfixes, x11-proto, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxcomposite_0.4.4_aarch64.deb
+Size: 2968
+SHA256: 47c351717c949b4afebce1ee2e33446e298db43c57abcaf28db2d5e73a84e5be
+
+Package: libxcursor-dev
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.15
+Description: Development files for libxcursor
+Homepage: https://www.x.org
+Depends: libxcursor
+Filename: dists/termux/extras/binary-aarch64/libxcursor-dev_1.1.15_aarch64.deb
+Size: 8020
+SHA256: ac73e8bda23fa3a336f3e899a8b5d75199a131d055fbca023c0d7ba90db8d80a
+
+Package: libxcursor
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.15
+Description: X cursor management library
+Homepage: https://www.x.org
+Depends: libxfixes, libxrender, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxcursor_1.1.15_aarch64.deb
+Size: 12164
+SHA256: 2706c4e3d52606408df00e152d7ab70d05b3ca168dc984042f9f77d701b3504e
+
+Package: libxdamage-dev
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.4
+Description: Development files for libxdamage
+Homepage: https://www.x.org
+Depends: libxdamage
+Filename: dists/termux/extras/binary-aarch64/libxdamage-dev_1.1.4_aarch64.deb
+Size: 2164
+SHA256: 45d9d126b6dcd7b0a207d9c58bd4c6213067b39e5136948c86a6e85825d24cac
+
+Package: libxdamage
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.4
+Description: X11 damaged region extension library
+Homepage: https://www.x.org
+Depends: libxfixes, x11-proto
+Filename: dists/termux/extras/binary-aarch64/libxdamage_1.1.4_aarch64.deb
+Size: 3132
+SHA256: d4f37df1e33184a2d9e08a6cdb20795ed74aa5063f3130d76e8d54d95d5168f2
+
+Package: libxext-dev
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1
+Description: Development files for libxext
+Homepage: https://www.x.org
+Depends: libxext
+Filename: dists/termux/extras/binary-aarch64/libxext-dev_1.3.1_aarch64.deb
+Size: 25052
+SHA256: 17fc5b87d32bf4b3050c51706da46411b0e17e60bf9cc23150ab1539d2c56e6a
+
+Package: libxext
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.1
+Description: X11 miscellaneous extensions library
+Homepage: https://www.x.org
+Depends: x11-proto, libx11, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxext_1.3.1_aarch64.deb
+Size: 15648
+SHA256: b637228ae57bfb79c2a7cdd53c089156049cdb42d2f60bc56fea929f7f266313
 
 Package: libxfce4ui-dev
 Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
@@ -185,6 +866,150 @@ Filename: dists/termux/extras/binary-aarch64/libxfconf_4.12.1_aarch64.deb
 Size: 175924
 SHA256: a4b37a8be0a530fc5549116176d519544224bdc95c4b0751f7d6474c9aa663f1
 
+Package: libxfixes-dev
+Architecture: aarch64
+Installed-Size: 16
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.3
+Description: Development files for libxfixes
+Homepage: https://www.x.org
+Depends: libxfixes
+Filename: dists/termux/extras/binary-aarch64/libxfixes-dev_5.0.3_aarch64.deb
+Size: 4200
+SHA256: 1f069cf386283c26fc4ff56061297d518af3e9dfddb0d8206f64b927dbd3bf86
+
+Package: libxfixes
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.3
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Depends: xorg-util-macros, libx11
+Filename: dists/termux/extras/binary-aarch64/libxfixes_5.0.3_aarch64.deb
+Size: 5232
+SHA256: ed43a3f202f0eeba3a87dc732f6bf7cdb55605f23a7a9a0a1c339019c6dffe8f
+
+Package: libxfont2-dev
+Architecture: aarch64
+Installed-Size: 12
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.0.3
+Description: Development files for libxfont2
+Homepage: 
+Depends: libxfont2
+Filename: dists/termux/extras/binary-aarch64/libxfont2-dev_2.0.3_aarch64.deb
+Size: 3044
+SHA256: cf5e01cba10ce6a467214753161c2eb78276698fc1fdf5628b6135c401a6b7a6
+
+Package: libxfont2
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.0.3
+Description: X11 font rasterisation library
+Homepage: 
+Depends: freetype, x11-proto, libfontenc, xtrans, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxfont2_2.0.3_aarch64.deb
+Size: 78432
+SHA256: ec1da7241bf0b3fcf73696fe630c3b112186b2b7d040b4d60827e67aec2c4dc0
+
+Package: libxft-dev
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.3.2
+Description: Development files for libxft
+Homepage: https://www.x.org
+Depends: libxft
+Filename: dists/termux/extras/binary-aarch64/libxft-dev_2.3.2_aarch64.deb
+Size: 9396
+SHA256: 86272400737c66415bf3f6a2774a835259898e45de49b2798a1dd24fe3a862ab
+
+Package: libxft
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.3.2
+Description: FreeType-based font drawing library for X
+Homepage: https://www.x.org
+Depends: libxrender, fontconfig
+Filename: dists/termux/extras/binary-aarch64/libxft_2.3.2_aarch64.deb
+Size: 23676
+SHA256: c18ca4772b454199e67ad51b96fd6d29760de35161a818510d356ec6c2d68f82
+
+Package: libxi-dev
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.7.9
+Description: Development files for libxi
+Homepage: https://www.x.org
+Depends: libxi
+Filename: dists/termux/extras/binary-aarch64/libxi-dev_1.7.9_aarch64.deb
+Size: 38132
+SHA256: 2f2bdaad84449d1870b030b60338bbc4de093978f69ed37d467dd4399ac0c9c1
+
+Package: libxi
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.7.9
+Description: X11 Input extension library
+Homepage: https://www.x.org
+Depends: libxext, x11-proto, libxfixes, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxi_1.7.9_aarch64.deb
+Size: 17816
+SHA256: 7f630e347cf52ded370d4fbb911038b06203aa460196fe3f22a77bbd4f41c550
+
+Package: libxinerama-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: Development files for libxinerama
+Homepage: https://www.x.org
+Depends: libxinerama
+Filename: dists/termux/extras/binary-aarch64/libxinerama-dev_1.1.3_aarch64.deb
+Size: 4140
+SHA256: 92bced5a7a2c930af29be529d8f4278761c82fa07e031c5ec58c736a05a12712
+
+Package: libxinerama
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: X11 Xinerama extension library
+Homepage: https://www.x.org
+Depends: libxext, x11-proto
+Filename: dists/termux/extras/binary-aarch64/libxinerama_1.1.3_aarch64.deb
+Size: 2896
+SHA256: ee32e9d8d98a41e1f887296ab567cc8debdb966eced89795c6399dd59bb97e06
+
+Package: libxkbfile-dev
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.9
+Description: Development files for libxkbfile
+Homepage: 
+Depends: libxkbfile
+Filename: dists/termux/extras/binary-aarch64/libxkbfile-dev_1.0.9_aarch64.deb
+Size: 7640
+SHA256: da9058ba0c5c20fd8968c4b650558ae1a425827c32950d09d8e137b17aaf7ed9
+
+Package: libxkbfile
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.9
+Description: X11 keyboard file manipulation library
+Homepage: 
+Depends: libx11, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxkbfile_1.0.9_aarch64.deb
+Size: 43804
+SHA256: f8940d04970d9fdbf0a48a678d5656c39191f243768b35cd4d3e1dbaf4f255eb
+
 Package: libxml-parser-perl
 Maintainer: Lokesh @hax4us
 Architecture: aarch64
@@ -194,6 +1019,311 @@ Description: The XML::Parser module is a Perl interface to James Clark's XML par
 Filename: dists/termux/extras/binary-aarch64/libxml-parser-perl_2.44_aarch64.deb
 Size: 118996
 SHA256: 4924f663874e4d2d34dcfc2d05de0bb81ddbcb79d7e1e8af74b0fc2454015186
+
+Package: libxmu-dev
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: Development files for libxmu
+Homepage: https://www.x.org
+Depends: libxmu
+Filename: dists/termux/extras/binary-aarch64/libxmu-dev_1.1.1_aarch64.deb
+Size: 11996
+SHA256: 728bcf6e56dc475905d718571200055d8ed18c8679b6e551380c724e8aa93db5
+
+Package: libxmu
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: X11 miscellaneous micro-utility library
+Homepage: https://www.x.org
+Depends: libxt, libxext, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxmu_1.1.1_aarch64.deb
+Size: 31392
+SHA256: fff5fab2816344c47521ccc1fdf6f5533099beb1c872dfda03e68d67bb73d4b8
+
+Package: libxpm-dev
+Architecture: aarch64
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.12
+Description: Development files for libxpm
+Homepage: https://www.x.org
+Depends: libxpm
+Filename: dists/termux/extras/binary-aarch64/libxpm-dev_3.5.12_aarch64.deb
+Size: 5064
+SHA256: 119094602b6673a41aa8437ce810e2ae3577616bbde9c84124fac5418adccbc0
+
+Package: libxpm
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.12
+Description: X11 pixmap library
+Homepage: https://www.x.org
+Depends: libxt, libxext, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxpm_3.5.12_aarch64.deb
+Size: 30988
+SHA256: b5d50b16d5556d8f61b7d6a532970a14c352d419eba03490299b0782350580a4
+
+Package: libxrender-dev
+Architecture: aarch64
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10
+Description: Development files for libxrender
+Homepage: https://www.x.org
+Depends: libxrender
+Filename: dists/termux/extras/binary-aarch64/libxrender-dev_0.9.10_aarch64.deb
+Size: 4028
+SHA256: 43886eb55919bb3da872ebcaaeb2fdb13347cac9a5af1cd80f3273a9b2a946e7
+
+Package: libxrender
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10
+Description: X Rendering Extension client library
+Homepage: https://www.x.org
+Depends: libx11, x11-proto
+Filename: dists/termux/extras/binary-aarch64/libxrender_0.9.10_aarch64.deb
+Size: 10472
+SHA256: 80ef60cee728404bdb74d240a5a9a50a1bf0f9710b1c9f6816ee47eb4536caeb
+
+Package: libxshmfence-dev
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2-1
+Description: Development files for libxshmfence
+Homepage: https://www.x.org
+Depends: libxshmfence
+Filename: dists/termux/extras/binary-aarch64/libxshmfence-dev_1.2-1_aarch64.deb
+Size: 1880
+SHA256: ea1c08f31760707bd71f45653235e79429885cecb54c2d326e1816389e5411c6
+
+Package: libxshmfence
+Architecture: aarch64
+Installed-Size: 20
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2-1
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Filename: dists/termux/extras/binary-aarch64/libxshmfence_1.2-1_aarch64.deb
+Size: 2572
+SHA256: d0e89d1e0d619e4eddbdd31cf94f286376eb74d31d07fce4558551ca19feae85
+
+Package: libxt-dev
+Architecture: aarch64
+Installed-Size: 1672
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: Development files for libxt
+Homepage: https://www.x.org
+Depends: libxt
+Filename: dists/termux/extras/binary-aarch64/libxt-dev_1.1.3_aarch64.deb
+Size: 79032
+SHA256: 8fd613a3e57e6892c70a9ba89270a9b9fc4ab412b132eebeffd960a32b3d7126
+
+Package: libxt
+Architecture: aarch64
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.3
+Description: X11 toolkit intrinsics library
+Homepage: https://www.x.org
+Depends: libx11, libsm, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/libxt_1.1.3_aarch64.deb
+Size: 96636
+SHA256: a9ae5a5bbf7ccbd75ad1cfa0706b7286599190e6500db93803aab0da447437c8
+
+Package: lua51
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.5-2
+Description: Simple, extensible, embeddable programming language
+Homepage: https://www.lua.org/
+Depends: readline
+Filename: dists/termux/extras/binary-aarch64/lua51_5.1.5-2_aarch64.deb
+Size: 60844
+SHA256: 1a69d1fa00cf7e265c330a99f98c92609d7283774ed839e43863eb51bd7d7d6e
+
+Package: luit
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1-1
+Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+Homepage: https://xorg.freedesktop.org/
+Depends: libfontenc, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/luit_1.1.1-1_aarch64.deb
+Size: 15440
+SHA256: c9a96a139440b448193693d77458c8cd5d458e61ea96e7b8862a94205a91b01d
+
+Package: ndk-sysroot-x
+Architecture: aarch64
+Installed-Size: 10312
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 16-5
+Description: System header and library files from the Android NDK needed for compiling C programs
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: libandroid-support-dev
+Conflicts: libutil-dev, ndk-sysroot
+Replaces: libutil-dev, ndk-sysroot
+Provides: libutil-dev, ndk-sysroot
+Filename: dists/termux/extras/binary-aarch64/ndk-sysroot-x_16-5_aarch64.deb
+Size: 861320
+SHA256: 2423b010bf69dcd3c647d396791e7055af3e6da916c301fa6eba7a780c9f04cd
+
+Package: openbox-dev
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.6.1-6
+Description: Development files for openbox
+Homepage: http://openbox.org
+Depends: openbox
+Filename: dists/termux/extras/binary-aarch64/openbox-dev_3.6.1-6_aarch64.deb
+Size: 13436
+SHA256: 536c661e4228337eaa73e642692fd171ea33e639c5d70be44c36b1170178c786
+
+Package: openbox
+Architecture: aarch64
+Installed-Size: 920
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.6.1-6
+Description: Highly configurable and lightweight X11 window manager
+Homepage: http://openbox.org
+Depends: bash, imlib2, librsvg, libsm, libxcursor, libxinerama, libxml2, pangoxft, startup-notification
+Recommends: feh, pypanel, xcompmgr
+Filename: dists/termux/extras/binary-aarch64/openbox_3.6.1-6_aarch64.deb
+Size: 366272
+SHA256: 26e51af54ae573ff7d8a257389f4c5bdbcf3145928e3bdbb405f496838f91f1b
+
+Package: pangoxft-dev
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.40.13-1
+Description: Development files for pangoxft
+Homepage: http://www.pango.org/
+Depends: pangoxft,libcairo-x-dev, libpixman-dev, fontconfig-dev, harfbuzz-dev
+Filename: dists/termux/extras/binary-aarch64/pangoxft-dev_1.40.13-1_aarch64.deb
+Size: 42536
+SHA256: 2715262d94b2822e07eaca33c6a2c7c826eb0916e4b982dbeb1f61b11ed546f4
+
+Package: pangoxft
+Architecture: aarch64
+Installed-Size: 476
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.40.13-1
+Description: Library for laying out and rendering text (with X)
+Homepage: http://www.pango.org/
+Depends: fontconfig, glib, harfbuzz, libcairo-x, libxft
+Conflicts: pango, pango-x, pango-dev
+Replaces: pango, pango-x
+Provides: pango, pango-x
+Filename: dists/termux/extras/binary-aarch64/pangoxft_1.40.13-1_aarch64.deb
+Size: 125680
+SHA256: 5056b9292a964f46dfdf2d26047ab85cab527efe9144f240a8b4c2a214c33327
+
+Package: pypanel
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.4-1
+Description: A lightweight panel/taskbar for X11 window managers written in python.
+Homepage: http://pypanel.sourceforge.net/
+Depends: imlib2, libxft, python2, python2-xlib
+Filename: dists/termux/extras/binary-aarch64/pypanel_2.4-1_aarch64.deb
+Size: 27148
+SHA256: 5a53b2a0ac9dcffd5a24f0a4e97aca63eaa0f2b2951fb7d697ec18588d256271
+
+Package: qemu-system
+Architecture: aarch64
+Installed-Size: 57748
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.11.0
+Description: A generic and open source machine emulator and virtualizer
+Homepage: https://www.qemu.org
+Depends: glib, libandroid-support, libbz2, libcurl, libgnutls, liblzo, libnettle, libpixman, libpng, libsdl, libutil, ncurses, libssh2, libseccomp, libjpeg-turbo, libandroid-shmem
+Filename: dists/termux/extras/binary-aarch64/qemu-system_2.11.0_aarch64.deb
+Size: 11214308
+SHA256: 2c5e23f7fece8161888c83e0a0bf37e097277fdd2d1d7f1ef4cf3e39338545bd
+
+Package: shared-mime-info
+Architecture: aarch64
+Installed-Size: 2260
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.9
+Description: Freedesktop.org Shared MIME Info
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Depends: glib, libxml2
+Filename: dists/termux/extras/binary-aarch64/shared-mime-info_1.9_aarch64.deb
+Size: 238172
+SHA256: 97513c4b728ba126db5f563e4849055adaf607a0507d337af066854f51f9e3c1
+
+Package: startup-notification-dev
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12
+Description: Development files for startup-notification
+Homepage: https://www.freedesktop.org
+Depends: startup-notification
+Filename: dists/termux/extras/binary-aarch64/startup-notification-dev_0.12_aarch64.deb
+Size: 3944
+SHA256: 30cfdb845f2be2c15931e2d4b69857a3eb0f239f6dae2ebde49922421f063e4c
+
+Package: startup-notification
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.12
+Description: Utility libraries for XC Binding
+Homepage: https://www.freedesktop.org
+Depends: libx11, xcb-util
+Filename: dists/termux/extras/binary-aarch64/startup-notification_0.12_aarch64.deb
+Size: 9744
+SHA256: 4f6b860ea182fd452fabb98317885f8d3d0af346a57e448b28641fa74fb530fd
+
+Package: the-powder-toy
+Architecture: aarch64
+Installed-Size: 2096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 92.5
+Description: The Powder Toy is a free physics sandbox game
+Homepage: http://powdertoy.co.uk/
+Depends: fftw, libbz2, liblua51, libsdl, libx11
+Filename: dists/termux/extras/binary-aarch64/the-powder-toy_92.5_aarch64.deb
+Size: 527064
+SHA256: 139e1d9d5746103612607b4e7cc899f84bd75fc0a427e6d0ac4174d9fe53d5b3
+
+Package: thunar
+Maintainer: Lokesh @hax4us
+Installed-Size: 9812
+Architecture: aarch64
+Version: 1.7.0
+Depends: libxfce4ui, libexo
+Description: Thunar is the Xfce file manager, a GTK+ 2 GUI to organise the files on your computer.
+Filename: dists/termux/extras/binary-aarch64/thunar_1.7.0_aarch64.deb
+Size: 1671188
+SHA256: 2b2137b1e198eb03b4a71123c28eec7ab096df1117437bd5e2548016c14fe660
+
+Package: tigervnc
+Architecture: aarch64
+Installed-Size: 2740
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.8.0-2
+Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
+Homepage: http://www.tigervnc.org
+Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage
+Filename: dists/termux/extras/binary-aarch64/tigervnc_1.8.0-2_aarch64.deb
+Size: 702556
+SHA256: f219085d3f6a21d4410d0d0911de7d0f37b913bfdc7a3d02d3ad56f393557ccc
 
 Package: wireless-tools-dev
 Architecture: aarch64
@@ -229,6 +1359,89 @@ Filename: dists/termux/extras/binary-aarch64/wireshark_2.2.1_aarch64.deb
 Size: 31205468
 SHA256: 553fa2455b5d8b868f9a15e814d9a3ae99387f54157dd81a3ae295b1a90c007c
 
+Package: xbitmaps-dev
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: Development files for xbitmaps
+Homepage: https://xorg.freedesktop.org/
+Depends: xbitmaps
+Filename: dists/termux/extras/binary-aarch64/xbitmaps-dev_1.1.1_aarch64.deb
+Size: 18248
+SHA256: 899ff27bfa528f653f31309d80e7e59b8b4156a5995063baaac9a0063315d5c9
+
+Package: xbitmaps
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1
+Description: X.org Bitmap files
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/xbitmaps_1.1.1_aarch64.deb
+Size: 984
+SHA256: 9bcaacf8ddae207bb7e29fdfb55477a809c2b350c4574fa5990350f8147e9236
+
+Package: xcb-util-dev
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.0
+Description: Development files for xcb-util
+Homepage: https://xcb.freedesktop.org
+Depends: xcb-util
+Filename: dists/termux/extras/binary-aarch64/xcb-util-dev_0.4.0_aarch64.deb
+Size: 3892
+SHA256: 1b612077b64c0836b40d868d063c4316921ab4c3516bfdf53c720b25f966180f
+
+Package: xcb-util
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.0
+Description: Utility libraries for XC Binding
+Homepage: https://xcb.freedesktop.org
+Depends: libxcb, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/xcb-util_0.4.0_aarch64.deb
+Size: 5104
+SHA256: 37afeef7859e41e34afbd1a7544cef61dc8a8eb47a9a18739c1a45b460523b83
+
+Package: xcbproto
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.12
+Description: XML-XCB protocol descriptions
+Homepage: https://www.x.org
+Filename: dists/termux/extras/binary-aarch64/xcbproto_1.12_aarch64.deb
+Size: 98512
+SHA256: a4b93f0a453c1b0800add3e657fd09e19b2f7d45591bd5f97d774b8c75ddbf88
+
+Package: xclock
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.7
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Depends: libx11, libxmu, libxaw, libxkbfile, libxrender, libxft, libandroid-support, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/xclock_1.0.7_aarch64.deb
+Size: 20680
+SHA256: 94d6c2d92b62b93706143f03a4ab307004ee6e9835417a9377d0780dad23e342
+
+Package: xcompmgr
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.7
+Description: Composite Window-effects manager for X.org
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcomposite, libxdamage, libxrender, libxext
+Filename: dists/termux/extras/binary-aarch64/xcompmgr_1.1.7_aarch64.deb
+Size: 11776
+SHA256: e11bde8fd6c535cad3d911aedf2775446630abe1825334dc184ea1eb78b5b203
+
 Package: xfce4-terminal
 Maintainer: Lokesh<lokesh@hax4us>@hax4us
 Architecture: aarch64
@@ -239,3 +1452,73 @@ Description: Xfce terminal emulator        This package contains Terminal, which
 Filename: dists/termux/extras/binary-aarch64/xfce4-terminal_0.8.6_aarch64.deb
 Size: 391336
 SHA256: 20c2e0bf3039c6a2bc2443608ef4156d1e70fdc94c83448946b4be388e8094c6
+
+Package: xorg-fonts-lite
+Architecture: aarch64
+Installed-Size: 18112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0-termux-1
+Description: Fonts for X server (only basic)
+Homepage: http://openbox.org
+Filename: dists/termux/extras/binary-aarch64/xorg-fonts-lite_1.0-termux-1_aarch64.deb
+Size: 8339260
+SHA256: 5810b3c8ff9f914f97e233c3e58fc6ee4157334d0ec19cfbcc493486fc0da41a
+
+Package: xorg-server
+Architecture: aarch64
+Installed-Size: 1316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.19.6
+Description: FIXME:Add description
+Homepage: 
+Depends: libandroid-shmem, libx11, libxfont2, libxkbfile, libxau, libpixman, openssl, xorg-xkbcomp, libxinerama
+Filename: dists/termux/extras/binary-aarch64/xorg-server_1.19.6_aarch64.deb
+Size: 475236
+SHA256: ead2216134c0c868608b87e1a60bfe4fe03087de168789f58d755a29b95e86dc
+
+Package: xorg-xauth
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.10
+Description: X.Org authorization settings program
+Homepage: https://xorg.freedesktop.org
+Depends: libxmu, xorg-util-macros
+Filename: dists/termux/extras/binary-aarch64/xorg-xauth_1.0.10_aarch64.deb
+Size: 16888
+SHA256: 6c365a3befa1d03131a0c1f971f81ba689283aac49b471db9acd375c70cdd5bf
+
+Package: xorg-xkbcomp
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.0
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Depends: libxkbfile, xkeyboard-config
+Filename: dists/termux/extras/binary-aarch64/xorg-xkbcomp_1.4.0_aarch64.deb
+Size: 62656
+SHA256: a59bd90635152804fcc9742e2be192897e70eed1ed7c263d7fe5f78fea597d14
+
+Package: xterm
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 330-1
+Description: X Terminal Emulator
+Homepage: http://invisible-island.net/xterm/
+Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
+Filename: dists/termux/extras/binary-aarch64/xterm_330-1_aarch64.deb
+Size: 252968
+SHA256: 0a3a328e242513d17a21c0ad5a5fdd35dc511862320a0a5b447cd01e7d2a317f
+
+Package: xtrans
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.5
+Description: X transport library
+Homepage: https://www.x.org
+Filename: dists/termux/extras/binary-aarch64/xtrans_1.3.5_aarch64.deb
+Size: 35836
+SHA256: 09310b3f6cc812f570ecc4a14490f31028aa9ce747f2d3c47f6d22a2b830791e
