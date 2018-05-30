@@ -14,6 +14,8 @@
 10. wireless-tools
 11. wireshark
 12. xfce4-terminal
+13. Thunar
+14. libexo
 
 ### List Of Available Packages (arm)
 1. wireless-tools
