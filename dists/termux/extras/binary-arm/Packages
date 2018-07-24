@@ -10,6 +10,42 @@ Filename: dists/termux/extras/binary-arm/clang_5.0.0_arm.deb
 Size: 7581904
 SHA256: ab07edde28119123f2a000b9b8b12aaca5c7cfe6f75eaf83586d00c7fcc693de
 
+Package: hping3
+Architecture: arm
+Installed-Size: 208
+Maintainer: lokesh@hax4us<lkpandey950@gmail.com>
+Version: 3.0.0
+Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
+Homepage: http://www.hping.org
+Depends: libandroid-shmem, libpcap, tcl
+Filename: dists/termux/extras/binary-arm/hping3_3.0.0_arm.deb
+Size: 61476
+SHA256: 3f3f28735e2187f4f12a454f52ae6141c25640f1a5c30b5e8de1b56498d82fa2
+
+Package: httrack-dev
+Architecture: arm
+Installed-Size: 168
+Maintainer: lokesh @hax4us
+Version: 3.49.2
+Description: Development files for httrack
+Homepage: http://www.httrack.com
+Depends: httrack
+Filename: dists/termux/extras/binary-arm/httrack-dev_3.49.2_arm.deb
+Size: 23484
+SHA256: ebf48ca095db6d28ea680e0e96a2bfce460387bca134caf0392d7059caa2370a
+
+Package: httrack
+Architecture: arm
+Installed-Size: 2112
+Maintainer: lokesh @hax4us
+Version: 3.49.2
+Description: It allow you to download a World Wide Web site from the Internet
+Homepage: http://www.httrack.com
+Depends: openssl
+Filename: dists/termux/extras/binary-arm/httrack_3.49.2_arm.deb
+Size: 468344
+SHA256: 971671fe73908ca4b53c5c31a08d6d14e8db41d3ce9c4b5fb6617ed026439566
+
 Package: libllvm
 Architecture: arm
 Installed-Size: 14880

@@ -128,6 +128,30 @@ Filename: dists/termux/extras/binary-aarch64/hping3_3.0.0_aarch64.deb
 Size: 49500
 SHA256: 57769c9e6783ece100f88b342c7d9d4bddf0c2be2ac052a660bbbd0c4221c48b
 
+Package: httrack-dev
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: lokesh @hax4us
+Version: 3.49.2
+Description: Development files for httrack
+Homepage: http://www.httrack.com
+Depends: httrack
+Filename: dists/termux/extras/binary-aarch64/httrack-dev_3.49.2_aarch64.deb
+Size: 23492
+SHA256: 89a944abde48f87fe3e8854477d300ee22aa6d38b9873331ea434e4ab0225f61
+
+Package: httrack-dev
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: lokesh @hax4us
+Version: 3.49.2
+Description: Development files for httrack
+Homepage: http://www.httrack.com
+Depends: httrack
+Filename: dists/termux/extras/binary-aarch64/httrack_3.49.2_aarch64.deb
+Size: 23492
+SHA256: 89a944abde48f87fe3e8854477d300ee22aa6d38b9873331ea434e4ab0225f61
+
 Package: imlib2-dev
 Architecture: aarch64
 Installed-Size: 36
